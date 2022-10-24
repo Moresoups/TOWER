@@ -10,17 +10,29 @@
 <body>
     
     <div class="enemybox">
-        <h2> Enemy Action</h2>
+        <h2> Enemy Action </h2>
+        <input type="letters" id="enemy-name" placeholder="Enemy Name">
         <input type="number" id="enemy-speed-1" placeholder="Speed" />
         <input type="number" id="enemy-damage-1" placeholder="Damage" />
         <button class="add-action" id="add-action-1">Add Action</button>
     </div>
+    
+    <div class="Sort">
+    <button onclick="speedSort()">Sort Speed</button>
+
+    <script>
+       function speedSort(){
+          alert("sorting speed");
+       }
+    </script>
+    </div>
 
     <div class="allybox">
-        <h2> Player Action</h2>
+        <h2> Player Action </h2>
+        <input type="letters" id="player-name" placeholder="Player Name">
         <input type="number" id="player-speed-1" placeholder="Speed" />
         <input type="number" id="player-damage-1" placeholder="Damage" />
         <button class="add-enemy-action" id="add-enemy-action-1">Add Action</button>
     </div>
-    
+
 </body>

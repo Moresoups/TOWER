@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 15;
+    padding: 20;
     user-select: none;
     box-sizing: border-box;
      }
@@ -20,7 +20,17 @@
       padding-top: 30px;
       padding: 50px;
     }
-    .allybox{
+
+    
+.speedSort{
+        background-color: orangered;
+        color: white;
+        padding-top: 30px;
+        padding: 100px;
+        align-items: center;
+      }
+
+      .allybox{
         background-color: green;
         color: white;
         padding-top: 30px;
